@@ -1,0 +1,244 @@
+{
+  "name": "UD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "nodecg": {
+    "compatibleRange": ">=0.9",
+    "dashboardPanels": [
+      {
+        "name": "Players",
+        "title": "Players",
+        "width": 7,
+        "file": "players.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "sliders",
+        "title": "Sliders",
+        "width": 1,
+        "file": "sliders.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "cups",
+        "title": "Coupes",
+        "width": 2,
+        "file": "cups.html",
+        "headerColor": "#525F78",
+        "workspace": "Run tools"
+      },
+      {
+        "name": "Clips",
+        "title": "Clip",
+        "width": 3,
+        "file": "clips.html",
+        "headerColor": "#525F78",
+        "workspace": "Full page"
+      },
+      {
+        "name": "Games",
+        "title": "Games",
+        "width": 6,
+        "file": "games.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "Tournaments",
+        "title": "Tournaments",
+        "width": 3,
+        "file": "tournaments.html",
+        "headerColor": "#525F78",
+        "workspace": "Full page"
+      },
+      {
+        "name": "Backgrounds",
+        "title": "Backgrounds",
+        "width": 3,
+        "file": "backgrounds.html",
+        "headerColor": "#525F78",
+        "workspace": "Full page"
+      },
+      {
+        "name": "Transition",
+        "title": "Transition",
+        "width": 6,
+        "file": "transition.html",
+        "headerColor": "#525F78",
+        "workspace": "Full page"
+      },
+      {
+        "name": "OBS",
+        "title": "OBS",
+        "width": 3,
+        "file": "obs.html",
+        "headerColor": "#525F78",
+        "workspace": "EXTERNAL"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "player-1-time.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "player-2-time.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "player-3-time.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "player-4-time.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "player-1.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "player-2.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "player-3.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "player-4.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "game.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "chrono.html",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "file": "commentators.html",
+        "width": 1920,
+        "height": 80
+      },
+      {
+        "file": "background.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "card-1.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "card-2.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "card-3.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "card-4.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "tournament.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "countdown.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "clip.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "transition.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "sliders.html",
+        "width": 800,
+        "height": 300
+      },
+      {
+        "file": "sliders-manuel.html",
+        "width": 800,
+        "height": 300
+      },
+      {
+        "file": "sliders-intro.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "assetCategories": [
+      {
+        "name": "images",
+        "title": "images",
+        "allowedTypes": [
+          "png",
+          "jpg"
+        ]
+      },
+      {
+        "name": "background",
+        "title": "background",
+        "allowedTypes": [
+          "png",
+          "jpg"
+        ]
+      },
+      {
+        "name": "clips",
+        "title": "clips",
+        "allowedTypes": [
+          "webm",
+          "mp4",
+          "mov"
+        ]
+      },
+      {
+        "name": "back-clips",
+        "title": "BACK Clips",
+        "allowedTypes": [
+          "webm",
+          "mp4"
+        ]
+      }
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bower-npm-resolver": "^0.11.0",
+    "livesplit-client": "^1.0.0",
+    "nodecg-utility-obs": "^6.1.7",
+    "socket.io-client": "^4.0.1"
+  }
+}

@@ -1,0 +1,78 @@
+html,body {
+	height:100%;
+	background-color: transparent;
+	overflow: hidden;
+	color: white;
+}
+.container {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.player-banner {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	position: fixed;
+	left: 0;
+	top: 7px;
+}
+
+#cup {
+	z-index: 3;
+	position: fixed;
+	bottom: 19px;
+	right: 77px;
+	opacity: 1;
+	transition: opacity 1s;
+}
+
+#cup.hide {
+	opacity: 0;
+}
+
+.player-banner>div {
+	flex: 1;
+	height: 100%;
+	width: 50%;
+	font-size: 3.5em;
+	line-height: 67px;
+	left: 15px;
+	top: 0;
+}
+
+.runner {
+	margin-left: 120px;
+	text-align: left;
+}
+
+.Pbs {
+	margin-right: 120px;
+	text-align: right;
+}
+
+#cardIframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+
+#cardIframe.hidden {
+	opacity: 0;
+}
+
+.badge {
+	background-color: grey;
+	border-radius: 25px;
+	padding: 5px 20px 5px 20px;
+	font-size: 0.5em;
+	font-family: roboto;
+	position: relative;
+	bottom: 8px;
+}
